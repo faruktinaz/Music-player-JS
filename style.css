@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 90vh;
+}
+.container{
+    width: 450px;
+    box-shadow: 0px 0px 76px -18px rgba(0,0,0,0.75);
+    padding: 0 0 5px 0;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volume-container i {
+    margin-right: 8px;
+}
+
+.music-list-select{
+    cursor: pointer;
+}
+li.playing{
+    background-color: #0b5eb7;
+    color: white;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
